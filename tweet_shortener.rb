@@ -16,7 +16,7 @@ def word_substituter(tweet)
   temp = tweet.split(" ")
   while i < temp.size do
     dictionary.each do |key, value|
-      if temp[i] == key
+      if temp[i] == key.lower
         temp[i] = value
       end
     end
@@ -28,6 +28,8 @@ end
 
 def bulk_tweet_shortener(tweets)
   dictionary = {
+  "For" => "4",
+
   "hello" => "hi",
   "to" => "2",
   "too" => "2",
@@ -38,7 +40,6 @@ def bulk_tweet_shortener(tweets)
   "and" => "&",
   "for" => "4",
   "four" => "4",
-  "For" => "4"
 
 }
   i = 0
