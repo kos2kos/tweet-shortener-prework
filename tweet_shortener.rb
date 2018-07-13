@@ -41,4 +41,12 @@ def selective_tweet_shortener(tweets)
     end
   end
 end
+
+def selective_tweet_shortener(tweets)
+  tweets.each do |tweet|
+    if tweet.size > 140
+      tweet = bulk_tweet_shortener(tweet[0..139])
+    end
+  end
+end
   
