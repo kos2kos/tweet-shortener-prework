@@ -7,7 +7,10 @@ def word_substituter(tweet)
   "be" => "b",
   "you" => "u",
   "at" => "@",
-  "and" => "&"
+  "and" => "&",
+  "for" => "4",
+  "four" => "4"
+
 }
   i = 0 
   temp = tweet.split(" ")
