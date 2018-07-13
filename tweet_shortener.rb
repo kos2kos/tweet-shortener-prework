@@ -37,7 +37,7 @@ def bulk_tweet_shortener(tweets)
   "at" => "@",
   "and" => "&",
   "for" => "4",
-  "four" => "4"
+  "four" => "4",
   "For" => "4"
 
 }
