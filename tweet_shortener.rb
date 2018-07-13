@@ -35,8 +35,8 @@ def bulk_tweet_shortener(tweets)
   "be" => "b",
   "you" => "u",
   "at" => "@",
-  "and" => "&"
-  "for" => "4"
+  "and" => "&",
+  "for" => "4",
   "four" => "4"
 
 }
