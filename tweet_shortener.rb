@@ -27,21 +27,6 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortener(tweets)
-  dictionary = {
-  "For" => "4",
-
-  "hello" => "hi",
-  "to" => "2",
-  "too" => "2",
-  "two" => "2",
-  "be" => "b",
-  "you" => "u",
-  "at" => "@",
-  "and" => "&",
-  "for" => "4",
-  "four" => "4",
-
-}
   i = 0
   while i < tweets.size 
     temp =  word_substituter(tweets[i])
